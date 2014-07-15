@@ -1,0 +1,16 @@
+section{Physical parameters from light curve \& radial velocities}\label{model}
+% Meredith will edit this section
+To derive physical and orbital parameters for KIC 9246715, we use the Eclipsing Light Curve (ELC) code \citep{oro00}. This code uses a genetic algorithm or Monte Carlo Markov Chain optimizers to simultaneously solve for a suite of stellar parameters. ELC is particularly well-suited to this analysis because it considers a set of input observables simultaneously (i.e., light curves and radial velocities). ELC is based on the Wilson-Devinney code \citep{wil71} and uses a full treatment of Roche geometry \citep{avn75}. In the limiting case where the two stars are sufficiently separated as to be spherical in shape, ELC has a ``fast analytic mode'' that uses the equations in \citep{gim06}. We use this option here because KIC 9246715 is a well-detached binary system.
+
+For KIC 9246715, we use ELC to solve for the following parameters: orbital period $P_{orb}$, $T_{conj}$ (a reference time that sets the deeper primary eclipse to orbital phase $\phi = 0.5$), orbital inclination $i$, $e \sin \omega$ and $e \cos \omega$ (where $e$ is eccentricity and $\omega$ is the longitude of periastron), OTHER IMPORTANT PARAMETERS HERE... RADIAL VELOCITY STUFF, the \emph{Kepler} contamination factor, and stellar limb darkening parameters for the quadratic limb darkening law.
+
+%These values are presented somewhere useful, like a table, with error bars.
+
+% Third figure: Multiple panes w/ELC-fit folded light curve and RV curve
+%
+%\begin{figure}[h!]
+%\begin{center}
+%\includegraphics[width=6 in]{fig3.eps}
+%\end{center}
+%\caption{Caption here.\label{ELCfig}}
+%\end{figure}
