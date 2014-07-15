@@ -5,4 +5,5 @@ Radial Velocities.tex
 Stellar atmosphere model.tex
 Physical parameters.tex
 Discussion.tex
+Conclusion.tex
 Bibliography.tex
