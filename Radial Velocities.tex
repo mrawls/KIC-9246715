@@ -1,0 +1,13 @@
+\section{Radial velocities}\label{rvs}
+To extract radial velocities from the spectra, we use the broadening function (BF) technique as outlined by \citet{ruc02}. The BF is a true linear de-convolution, while the more familiar cross-correlation function (CCF) is a non-linear proxy for the BF that is less suitable for double-lined spectra. We use a spectrum of Arcturus taken with ARCES in 2004 as a template for the BF, and consider the wavelength range 5500--7100 \AA \ to maximize signal-to-noise and minimize the presence of telluric features. We first smooth the BF with a Gaussian (total area = 1, $\sigma=2.0$)  to remove un-correlated, small-scale noise below the size of the spectrograph slit, and then fit Gaussian profiles to measure the location of the BF peaks in velocity space. We also measure the width of each peak to estimate the error. The results from the BF technique are shown for each observation in Figure \ref{bffig}. In all but two cases, two separate peaks (one corresponding to each star's motion) are clearly visible. The two ``single peak" cases occur when the stars' velocities are similar. Nearly all of the BFs show a small peak at a radial velocity of zero, which is an artifact from telluric absorption lines in Earth's atmosphere.
+
+% Second figure: Illustration of Broadening Function technique
+% Meredith will make this caption better.
+% This figure will need to be re-generated with updated orbital phases once the ELC model is done.
+% NOTE: the "figure*" syntax allows for a two-figure column in the emulateapj document class.
+\begin{figure*}[h!]
+\centering
+\includegraphics[width=7 in]{fig2.eps}
+\caption{Raw radial velocities fit with broadening functions.\label{bffig}}
+\end{figure*}
+
