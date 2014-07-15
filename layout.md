@@ -7,4 +7,3 @@ Physical parameters.tex
 Discussion.tex
 Results.tex
 Conclusion.tex
-Bibliography.tex
