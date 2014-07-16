@@ -1,6 +1,6 @@
 Abstract.tex
 Introduction.tex
-Observations.tex
+Observations - Kepler.tex
 Radial Velocities.tex
 Stellar atmosphere model.tex
 Physical parameters.tex
