@@ -9,3 +9,4 @@ Stellar atmosphere model.tex
 Physical parameters.tex
 Discussion.tex
 Conclusion.tex
+Acknowledgments.tex
