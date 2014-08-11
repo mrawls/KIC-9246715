@@ -8,6 +8,6 @@ figures/bf_awesomeplot2/bf_awesomeplot2.png
 figures/rvcurve_final2/rvcurve_final3.png
 Stellar atmosphere model.tex
 Physical parameters.tex
-Discussion and Results.tex
+Discussion.tex
 Conclusion.tex
 Acknowledgments.tex
