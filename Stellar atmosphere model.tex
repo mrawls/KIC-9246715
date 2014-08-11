@@ -1,3 +1,9 @@
 \section{Stellar atmosphere model}\label{atm}
-% Yeah, so this needs to happen
-We use the radiative transfer code MOOG \citep{sne73} to derive $T_{\rm{eff}}$, $\log g$, and metallicity for the two red giants. This is tricky because we have lines from two stars, but hey, they're similar, so that's good, right?
+We use the radiative transfer code MOOG \citep{sne73} to derive $T_{\rm{eff}}$, $\log g$, and metallicity for the two red giants.
+\begin{itemize}
+\item First, disentangle spectra using FDBinary
+\item Next, identify metallicity-sensitive Fe lines in each disentangled spectrum with ARES
+\item Finally, run MOOG
+\end{itemize}
+
+IN PROGRESS
