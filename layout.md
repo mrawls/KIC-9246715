@@ -1,6 +1,6 @@
 Abstract.tex
 Introduction.tex
-Observations - Kepler.tex
+Observations   Kepler.tex
 figures/lc_finalplot1/lc_finalplot1.png
 Observations - spectra.tex
 Radial Velocities.tex
