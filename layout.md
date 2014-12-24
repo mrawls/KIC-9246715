@@ -10,7 +10,7 @@ Stellar atmosphere model.tex
 figures/fdbinary_plot1/fdbinary_finalplot2.png
 Stellar parameters.tex
 Physical parameters.tex
-figures/better_ELCplot/better_ELCplot.png
+figures/better_ELCplot/ELCfig_poster.png
 Refined ELC Models.tex
 Discussion.tex
 Conclusion.tex
