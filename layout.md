@@ -13,5 +13,6 @@ Physical parameters.tex
 figures/better_ELCplot/ELCfig_poster.png
 Refined ELC Models.tex
 Discussion.tex
+Discussion cont..tex
 Conclusion.tex
 Acknowledgments.tex
