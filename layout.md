@@ -14,6 +14,7 @@ figures/better_ELCplot/ELCfig_poster.png
 Refined ELC Models.tex
 Discussion.tex
 figures/9246715_modes_fromjean/9246715_modes_fromjean.png
+More Discussion.tex
 Discussion cont..tex
 Discussion cont..tex
 Conclusion.tex
