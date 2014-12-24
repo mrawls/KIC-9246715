@@ -3,12 +3,12 @@ To derive physical and orbital parameters for KIC 9246715, we use the Eclipsing 
 
 To characterize the binary, we compute two sets of ELC models. The first uses all eclipses from the light curve together with all radial velocity points and employ ELC's ``fast analytic mode.'' This and subsequent models use the equations in \citet{man02} to treat both stars as spheres, which is reasonable for a well-detached binary like KIC 9246715. We use the parameters from this model to inform the spectral disentangling process described in Section \ref{atm}. The second set of ELC models breaks the light curves into ``chunks'' to investigate how stellar activity affects the model results. One ``chunk'' is a portion of the light curve that includes one primary and one secondary eclipse.
 
-\subsection{All-Eclipse ELC Model}
+\subsection{All-eclipse ELC model}
 
 We use ELC to solve for 19 parameters: orbital period $P_{orb}$, zeropoint $T_{conj}$ (this sets the primary eclipse to orbital phase $\phi_{ELC} = 0.5$ instead of $\phi = 0$), orbital inclination $i$, $e \sin \omega$ and $e \cos \omega$ (where $e$ is eccentricity and $\omega$ is the longitude of periastron), the temperature of the primary star $T_1$, the mass of the primary star $M_1$, the amplitude of the primary star's radial velocity curve $K_1$, the fractional radii of each star $R_1/a$ and $R_2/a$ (where $a$ is the average orbital seperation), the \emph{Kepler} contamination factor for each of four spacecraft configurations, and stellar limb darkening parameters for the quadratic limb darkening law. Because all binaries obey the relation
 \begin{equation}
 \frac{M_1}{M_2} = \frac{K_2}{K_1},
 \end{equation}
-the ELC model includes masses and radii for both stars. Error bars for each fit parameter are estimated by scaling the measured error values so that an otherwise identical ELC model yields an overall reduced $\chi^2 = 1$. One-sigma errors for each parameter then correspond to the value that gives $\Delta \chi^2 = 1$. The results for the All-Eclipse ELC Model are shown in Figure \ref{fig:ELCresult} and presented in TABLE BELOW.
+the ELC model includes masses and radii for both stars. Error bars for each fit parameter are estimated by scaling the measured error values so that an otherwise identical ELC model yields an overall reduced $\chi^2 = 1$. One-sigma errors for each parameter then correspond to the value that gives $\Delta \chi^2 = 1$. The results for the all-eclipse ELC model are shown in Figure \ref{fig:ELCresult} and presented in TABLE BELOW.
 
 %Maybe talk about how we are suspicious of a spot during one of the primary eclipses, which we investigate in the next round of modeling.
