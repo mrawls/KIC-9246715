@@ -16,6 +16,7 @@ Discussion.tex
 figures/9246715_modes_fromjean/9246715_modes_fromjean.png
 More Discussion.tex
 figures/figure_1/figure_1.png
+Future Work.tex
 Discussion cont..tex
 Discussion cont..tex
 Conclusion.tex
