@@ -7,7 +7,7 @@ Radial Velocities.tex
 figures/bf_awesomeplot2/bf_newplot2_smoothfix.png
 figures/rvcurve_final2/9246715_rvplot_final_REALLY_smoothfix.png
 Stellar atmosphere model.tex
-figures/fdbinary_plot1/fdbinary_finalplot4.png
+figures/fdbinary_plot1/FDBinary_plot_trial6.png
 Stellar parameters.tex
 Physical parameters.tex
 figures/better_ELCplot/ELCfig_poster.png
