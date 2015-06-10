@@ -2,8 +2,8 @@
 To derive physical and orbital parameters for KIC 9246715, we use the Eclipsing Light Curve (ELC) code \citep{oro00}. ELC employs photodynamical modeling with a Monte Carlo Markov Chain optimizer to simultaneously solve for a suite of stellar parameters. It is able to consider any set of input constraints simultaneously, i.e., a combination of light curves and radial velocities, and can use a full treatment of Roche geometry \citep{kop69,avn75}. It uses the NextGen model atmospheres integrated over a specified filter (in this case, the relatively broad ``white-light'' \emph{Kepler} bandpass). ELC uses $\chi^2$ as a measure of fitness to refine a best-fit model:
 \begin{eqnarray}
 \chi^2 & = &
-\sum_i \frac{ (f_{\rm{mod}}(\phi_i; \ {\bf a}) - f_{\rm{obs}}(\rm{\it{Kepler}}))^2 }{\sigma_i^2(\rm{\it{Kepler}})} \\
-& + & \sum_i \frac{ (f_{\rm{mod}}(\phi_i; \ {\bf a}) - f_{\rm{obs}}(\rm{RV_1}))^2 }{\sigma_i^2(\rm{RV_1})} \\
+\sum_i \frac{ (f_{\rm{mod}}(\phi_i; \ {\bf a}) - f_{\rm{obs}}(\rm{\it{Kepler}}))^2 }{\sigma_i^2(\rm{\it{Kepler}})} \nonumber \\
+& + & \sum_i \frac{ (f_{\rm{mod}}(\phi_i; \ {\bf a}) - f_{\rm{obs}}(\rm{RV_1}))^2 }{\sigma_i^2(\rm{RV_1})} \nonumber \\
 & + & \sum_i \frac{(f_{\rm{mod}}(\phi_i; \ {\bf a}) - f_{\rm{obs}}(\rm{RV_2}))^2}{\sigma_i^2(\rm{RV_2})},
 \end{eqnarray}
 
