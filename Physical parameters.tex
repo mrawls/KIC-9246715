@@ -1,13 +1,13 @@
 \section{Physical parameters from light curve \& radial velocities}\label{model}
 To derive physical and orbital parameters for KIC 9246715, we use the Eclipsing Light Curve (ELC) code \citep{oro00}. ELC employs photodynamical modeling with a Monte Carlo Markov Chain optimizer to simultaneously solve for a suite of stellar parameters. It is able to consider any set of input constraints simultaneously, i.e., a combination of light curves and radial velocities, and can use a full treatment of Roche geometry \citep{kop69,avn75}. It uses the NextGen model atmospheres integrated over a specified filter (in this case, the relatively broad ``white-light'' \emph{Kepler} bandpass). ELC uses $\chi^2$ as a measure of fitness to refine a best-fit model:
-\begin{eqnarray*}
+\begin{eqnarray}
 \chi^2 & = &
 \sum_i \frac{ (f_{\rm{mod}}(\phi_i; \ {\bf a}) - f_{\rm{obs}}(\rm{\it{Kepler}}))^2 }{\sigma_i^2(\rm{\it{Kepler}})} \\
 & + & \sum_i \frac{ (f_{\rm{mod}}(\phi_i; \ {\bf a}) - f_{\rm{obs}}(\rm{RV_1}))^2 }{\sigma_i^2(\rm{RV_1})} \\
 & + & \sum_i \frac{(f_{\rm{mod}}(\phi_i; \ {\bf a}) - f_{\rm{obs}}(\rm{RV_2}))^2}{\sigma_i^2(\rm{RV_2})},
-\end{eqnarray*}
+\end{eqnarray}
 
-where $f_{\rm{mod}}(\phi_i; \ {\bf a})$ is the ELC model flux at a given phase $\phi_i$ for a set of parameters ${\bf a}}$, $f_\rm{obs}$ is the observed value at the same phase, and $\sigma_i$ is the associated uncertainty.
+where $f_{\rm{mod}}(\phi_i; \ {\bf a})$ is the ELC model flux at a given phase $\phi_i$ for a set of parameters ${\bf a}$, $f_\rm{obs}$ is the observed value at the same phase, and $\sigma_i$ is the associated uncertainty.
 
 To characterize the binary, we compute two sets of ELC models. The first uses all eclipses from the light curve together with all radial velocity points and employ ELC's ``fast analytic mode.'' This and subsequent models use the equations in \citet{man02} to treat both stars as spheres, which is reasonable for a well-detached binary like KIC 9246715. We use the parameters from this model to inform the spectral disentangling process described in Section \ref{atm}. The second set of ELC models breaks the light curves into segments to investigate how stellar activity affects the results.
 
