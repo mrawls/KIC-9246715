@@ -1,4 +1,4 @@
-Abstract.tex
+abstract.tex
 Introduction.tex
 Observations   Kepler.tex
 figures/lc_finalplot1/lcfig.png
