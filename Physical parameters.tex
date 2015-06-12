@@ -9,7 +9,7 @@ To derive physical and orbital parameters for KIC 9246715, we use the Eclipsing 
 
 where $f_{\rm{mod}}(\phi_i; \ {\bf a})$ is the ELC model flux at a given phase $\phi_i$ for a set of parameters ${\bf a}$, $f_{\rm{obs}}$ is the observed value at the same phase, and $\sigma_i$ is the associated uncertainty.
 
-To characterize the binary, we compute two sets of ELC models. The first uses all eclipses from the light curve together with all radial velocity points and employ ELC's ``fast analytic mode.'' This and subsequent models use the equations in \citet{man02} to treat both stars as spheres, which is reasonable for a well-detached binary like KIC 9246715. We use the parameters from this model to inform the spectral disentangling process described in Section \ref{atm}. The second set of ELC models breaks the light curves into segments to investigate how photometric variations from one set of eclipses to another affect the results.
+We compute two sets of ELC models: the first uses all eclipses from the light curve together with all radial velocity points, and the second breaks the light curves into segments to investigate how photometric variations from one orbit to another affect the results. Both sets of models employ ELC's ``fast analytic mode.'' This uses the equations in \citet{man02} to treat both stars as spheres, which is reasonable for a well-detached binary like KIC 9246715 ($R/a < 0.04$ for both stars).
 
 \subsection{All-eclipse ELC model}
 
@@ -17,4 +17,4 @@ We use ELC to solve for 16 parameters: orbital period $P_{orb}$, zeropoint $T_{c
 \begin{equation}
 \frac{M_1}{M_2} = \frac{K_2}{K_1},
 \end{equation}
-the ELC model includes masses and radii for both stars. Error bars for each fit parameter are estimated by scaling the measured error values so that $\chi^2 \sim N$, where $N$ is the number of data points in one of three data sets (light curve of the binary, radial velocity of Star 1, and radial velocity of Star 2). We then assign one-sigma errors for each parameter corresponding to the value that gives $\Delta \chi^2$ equal to the minimum $\chi^2$. The results for the all-eclipse ELC model are shown in Figure \ref{fig:ELCresult} and presented in the ``All-eclipse model'' column of Table \ref{table1}.
+the ELC model includes masses and radii for both stars. Error bars for each fit parameter are estimated by scaling the measured error values so that $\chi^2 \sim N$, where $N$ is the number of data points in one of three data sets (light curve of the binary, radial velocity of Star 1, and radial velocity of Star 2). We then assign one-sigma errors for each parameter corresponding to the value that gives $\Delta \chi^2$ equal to the minimum $\chi^2$. The results for the all-eclipse ELC model are shown in Figure \ref{fig:ELCresult} and presented in the ``All-eclipse model'' column of Table \ref{table1}. These values are used to constrain the spectral disentangling process described in Section \ref{atm}.
