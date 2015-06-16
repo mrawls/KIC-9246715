@@ -2,17 +2,31 @@
 
 \subsection{Comparison with asteroseismology}\label{seismo}
 
-Because both stars in KIC 9246715 are evolved giants with convective envelopes, we expect both to exhibit solar-like oscillations. These should be observable as p-modes in \emph{Kepler} long-cadence data. However, when \citet{gau13} and \citet{gau14} analyzed the oscillation modes to estimate global asteroseismic parameters, only one set of modes was found. Of the 15 oscillating red giants in eclipsing binaries in the \emph{Kepler} field, KIC 9246715 is the only one with a pair of giant stars (the rest are composed of a giant star and a main sequence star). The oscillation spectrum is shown in Figure \ref{fig:seismo}. \citet{gau14} note that the mode amplitudes are low ($A_{\rm{max}} \simeq 6.6$ ppm), report photometric variability as large as 2\%, and speculate that star spots may be responsible for inhibiting oscillations on the smaller star. They also report $M = 2.06 \pm 0.13 \ M_{\odot}$ and $R = 8.10 \pm 0.18 \ R_{\odot}$ using the asteroseismic scaling relations
+Because both stars in KIC 9246715 are evolved giants with convective envelopes, we expect both to exhibit solar-like oscillations. These should be observable as p-modes in \emph{Kepler} long-cadence data. The average large frequency separation of such modes $\Delta \nu$ has been shown to scale with the square root of the mean density of the star, while the frequency of maximum oscillation power $\nu_{\rm{max}}$ carries information about the physical conditions near the surface of the star and is a function of surface gravity and temperature \citep{cha13}. These so-called scaling relations may be used to estimate a star's density and surface gravity:
 
 \begin{equation}
-\left( \frac{R}{R_\odot} \right) \simeq \left( \frac{\nu_{\rm{max}}}{\nu_{\rm{max,\odot}}} \right) \left( \frac{\Delta \nu}{\Delta \nu_\odot} \right)^{-2} \left( \frac{T_{\rm{eff}}}{T_{\rm{eff,\odot}}} \right)^{0.5}
-\end{equation}\label{radeq}
+\left( \frac{\rho}{\rho_{\odot}} \right) \simeq \left( \frac{\Delta \nu}{\Delta \nu_{\odot}} \right)^{2}
+\label{density}
+\end{equation}
 
 and
 
 \begin{equation}
-\left( \frac{M}{M_\odot} \right) \simeq {\left( \frac{\nu_{\rm{max}}}{\nu_{\rm{max,\odot}}} \right)}^{3} \left( \frac{\Delta \nu}{\Delta \nu_\odot} \right)^{-4} \left( \frac{T_{\rm{eff}}}{T_{\rm{eff,\odot}}} \right)^{1.5}.
-\end{equation}\label{masseq}
+\left( \frac{g}{g_{\odot}} \right) \simeq \left( \frac{\delta \nu_{\rm{max}}}{\delta \nu_{\rm{max}, \odot}} \right) \left{( \frac{T_{\rm{eff}}}{T_{\rm{eff}, \odot}} \right)}^{1.5}.
+\label{gravity}
+\end{equation}
+
+However, when \citet{gau13} and \citet{gau14} analyzed the oscillation modes to estimate global asteroseismic parameters, only one set of modes was found. Of the 15 oscillating red giants in eclipsing binaries in the \emph{Kepler} field, KIC 9246715 is the only one with a pair of giant stars (the rest are composed of a giant star and a main sequence star). The oscillation spectrum is shown in Figure \ref{fig:seismo}. \citet{gau14} note that the mode amplitudes are low ($A_{\rm{max}} \simeq 6.6$ ppm), report photometric variability as large as 2\%, and speculate that star spots may be responsible for inhibiting oscillations on the smaller star. They also report $M = 2.06 \pm 0.13 \ M_{\odot}$ and $R = 8.10 \pm 0.18 \ R_{\odot}$ by rearranging the scaling relations in Equations \ref{density} and \ref{gravity}:
+
+\begin{equation}\label{radeq}
+\left( \frac{R}{R_\odot} \right) \simeq \left( \frac{\nu_{\rm{max}}}{\nu_{\rm{max,\odot}}} \right) \left( \frac{\Delta \nu}{\Delta \nu_\odot} \right)^{-2} \left( \frac{T_{\rm{eff}}}{T_{\rm{eff,\odot}}} \right)^{0.5}
+\end{equation}
+
+and
+
+\begin{equation}\label{masseq}
+\left( \frac{M}{M_\odot} \right) \simeq {\left( \frac{\nu_{\rm{max}}}{\nu_{\rm{max,\odot}}} \right)}^{3} \left( \frac{\Delta \nu}{\Delta \nu_\odot} \right)^{-4} \left( \frac {T_{\rm{eff}}} {T_{\rm{eff,\odot}}} \right)^{1.5}.
+\end{equation}
 
 It is important to note the strong temperature dependence of these relations. WRITE SOMETHING ABOUT NEW M AND R ESTIMATES WITH BETTER TEMPERATURE INPUTS HERE. The masses and radii for both stars in KIC 9246715 are consistent with the asteroseismic values, so we unfortunately cannot use KIC 9246715 to draw conclusions about the accuracy the scaling relations. We speculate on which star is the oscillator and further explore the binary's co-evolutionary history in Section \ref{context}.
 
