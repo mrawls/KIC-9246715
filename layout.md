@@ -17,6 +17,7 @@ Discussion.tex
 Begin_Table_begin_deluxetable_lcccccc__.tex
 figures/9246715_modes_fromjean/9246715_modes_fromjean.png
 subsection_Searching_for_a_second__.tex
+figures/9246715_modes_fromjean_edited/9246715_modes_fromjean_edited.png
 More Discussion.tex
 figures/figure_1/figure_1.png
 Discussion cont..tex
