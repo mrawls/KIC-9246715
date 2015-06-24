@@ -14,7 +14,7 @@ begin_deluxetable_lccc_tablecolumns_4__.tex
 figures/better_ELCplot/ELCfig.png
 Refined ELC Models.tex
 Discussion.tex
-begin_deluxetable_lccccc_tablecolumns_6__.tex
+begin_deluxetable_lccccc_tablecolumns_5__.tex
 subsection_Searching_for_a_second__.tex
 figures/9246715_modes_fromjean_edited/9246715_modes_fromjean_edited.png
 More Discussion.tex
