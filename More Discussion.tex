@@ -12,7 +12,7 @@ The double red giant binary KIC 9246715 is an interesting system with photometri
 To estimate how tidal forces should theoretically affect the eccentricity of the binary's orbit, we follow the approach of \citet{ver95} and consider a detached binary with constant $a$ and binary masses. Equations 5 and 6 \citep{ver95} state:
 
 \begin{equation}\label{tide1}
-\Delta \ln e = -1.7 \times 10^{-5} \ f \ {\left( \frac{M}{M_{\odot}}^{-11/3} \right)} \ q(1+q)^{-5/3} \ I(t) {\left( \frac{P_{\rm{orb}}}{\rm{day}} \right)},
+\Delta \ln e = -1.7 \times 10^{-5} \ f \ {\left( \frac{M}{M_{\odot}} \right)}^{-11/3} \ q(1+q)^{-5/3} \ I(t) {\left( \frac{P_{\rm{orb}}}{\rm{day}} \right)},
 \end{equation}
 
 where $f$ is a factor of order unity, $q$ is the ratio of the companion star's mass $M_2$ to the primary star's mass $M$, and
@@ -23,20 +23,16 @@ I(t) \equiv \int_0^t {\left( \frac{T_{\rm{eff}}(t')}{4500 \rm{K}} \right)}^{4/3}
 
 where $M_{\rm{env}}$ is the mass of the convective envelope of the primary star.
 
-We use Equation 6 in  Verbunt & Phinney to estimate delta-ln-e, which is probably gt 1, but we observe e gt 0, so.
+The result is probably gt 1, but we observe e gt 0, so.
+
 To calculate the I(t) integral, use MESA models from many points, and make a plot like Fig 1.
 Add 0.35 to whatever delta-ln-e is for the star's lifetime to get starting eccentricity.
-Look at Fig 4 and figure out where this system would roughly fall. Consistent with other binaries or weird?
+Look at Verbunt Fig 4 and figure out where this system would roughly fall. Consistent with other binaries or weird?
 
 Talk about the 2:1 orbital:variability period ratios, as discussed in \citet{gau14}.
 
 Speculation:
-Coriolis forces (centrifugal actually) dissipate energy that would cause circularization. Causes individual rotations to synchronize (usually synchronization happens first, and circularization happens second). Neither of those things have happened here, but it seems like the rotation knows about the orbit, so SOMETHING has happened... just not synchronization. This should have happened even faster since it's two RGs, not a RG + MS (or WD). The fact that both of them have convection zones that could be causing this centrifugal force situation means that this should have happened "a long time ago in a hand-wavey sort of way."
+Ccentrifugal forces dissipate energy that would cause circularization. Causes individual rotations to synchronize (usually synchronization happens first, and circularization happens second). Neither of those things have happened here, but it seems like the rotation knows about the orbit, so SOMETHING has happened... just not synchronization. This should have happened even faster since it's two RGs, not a RG + MS (or WD). The fact that both of them have convection zones that could be causing this centrifugal force situation means that this should have happened "a long time ago in a hand-wavey sort of way."
 
 The fact that only one star is oscillating points to how tidal activity may affect oscillations.
 Important for other people because over half of cool stars should be in binaries! Using RGs to probe the galaxy has to be done carefully because of external influences of binarity on oscillations.
-    
-    
-    
-    
-    
