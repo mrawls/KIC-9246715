@@ -18,6 +18,7 @@ begin_deluxetable_lccccc_tablecolumns_5__.tex
 subsection_Searching_for_a_second__.tex
 figures/9246715_modes_fromjean_edited/9246715_modes_fromjean_edited.png
 More Discussion.tex
+figures/emission_star3/emission_star3.png
 figures/emission_star2/emission_star2.png
 figures/emission_star1/emission_star1.png
 figures/figure_1/figure_1.png
