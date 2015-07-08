@@ -14,7 +14,7 @@ begin_deluxetable_lccc_tablecolumns_4__.tex
 figures/better_ELCplot/ELCfig.png
 Refined ELC Models.tex
 Discussion.tex
-begin_deluxetable_lcccccc_tablecolumns_5__.tex
+begin_deluxetable_lccccc_tablecolumns_6__1.tex
 subsection_Searching_for_a_second__.tex
 figures/KIC_9246715_PDS_patrick/KIC_9246715_PDS_patrick.png
 figures/KIC_9246715_echelle_patrick/KIC_9246715_echelle_patrick.png
