@@ -16,6 +16,7 @@ Refined ELC Models.tex
 Discussion.tex
 begin_deluxetable_lcccccc_tablecolumns_5__.tex
 subsection_Searching_for_a_second__.tex
+figures/KIC_9246715_echelle_patrick/KIC_9246715_echelle_patrick.png
 More Discussion.tex
 figures/emission_star3/emission_star3.png
 figures/emission_star2/emission_star2.png
