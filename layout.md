@@ -4,6 +4,7 @@ Observations   Kepler.tex
 figures/lc_finalplot1/lcfig.png
 Observations   spectra.tex
 Radial Velocities.tex
+begin_deluxetable_cccccc_tablecolumns_5__.tex
 figures/bf_awesomeplot2/bf_finalplot_modeltemplate.png
 figures/rvcurve_final2/9246715_rvplot_final_REALLY_smoothfix.png
 Stellar atmosphere model.tex
