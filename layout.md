@@ -24,6 +24,7 @@ figures/emission_star3/emission_star3.png
 figures/emission_star2/emission_star2.png
 figures/figure_1/figure_1.png
 subsection_Tidal_forces_and_stellar__.tex
+figures/agevsmass_draft/agevsmass_draft.png
 Discussion cont..tex
 Discussion cont..tex
 Conclusion.tex
