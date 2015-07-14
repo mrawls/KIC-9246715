@@ -20,7 +20,7 @@ subsection_Searching_for_a_second__.tex
 figures/KIC_9246715_PDS_patrick/KIC_9246715_PDS_patrick.png
 figures/KIC_9246715_echelle_patrick/KIC_9246715_echelle_patrick.png
 More Discussion.tex
-figures/emission_star3/emission_star3.png
+figures/emission_star3/emission_star1.png
 figures/emission_star2/emission_star2.png
 figures/figure_1/figure_1.png
 subsection_Tidal_forces_and_stellar__.tex
