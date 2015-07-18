@@ -4,7 +4,13 @@ INTRODUCE MESA MODEL AND CORRESPONDING FIGURE. ADDRESS RADIUS DISCREPANCY(?)
 
 WRITE SOMETHING ABOUT RG MASS LOSS, WHICH ISN'T VERY WELL UNDERSTOOD.
 
-To estimate how tidal forces may affect the orbital eccentricity, we follow the approach of \citet{ver95}, a study of tidal circularization in binaries containing giant stars. A CLEARER INTRODUCTION/OVERVIEW OF THAT WORK WILL GO HERE. We consider a detached binary with constant $a$ and constant binary masses. Equations 5 and 6 \citep{ver95} state:
+To estimate how tidal forces may affect the orbital eccentricity, we follow the approach of \citet{ver95}, which uses the theory of equilibrium tide first proposed by \citet{zah77} to calculate a timescale for orbit circularization, $\tau_c$, as a star evolves. The total change in eccentricity over a binary's lifetime, $\Delta \ln e$, is found by integrating $1/\tau_c \equiv \rm{d} \ln e / \rm{d}t$:
+
+\begin{equation}\label{circ}
+\Delta \ln e = \int_0^t \frac{\rm{d}t'}{\tau_c(t')}.
+\end{equation}
+
+We consider a detached binary with constant $a$ and constant total stellar masses, and use equations 5 and 6 from \citet{ver95} as follows:
 
 \begin{equation}\label{tide1}
 \Delta \ln e = -1.7 \times 10^{-5} \ f \ {\left( \frac{M}{M_{\odot}} \right)}^{-11/3} \ q(1+q)^{-5/3} \ I(t) {\left( \frac{P_{\rm{orb}}}{\rm{day}} \right)}^{-16/3},
@@ -18,7 +24,7 @@ I(t) \equiv \int_0^t \left( \frac{T_{\rm{eff}}(t')}{4500 \rm{K}} \right)^{4/3} \
 
 where $M_{\rm{env}}$ is the mass of the convective envelope of the primary star. It is important to note that \citet{ver95} assumed circularization would proceed by a small secondary star (main sequence or white dwarf) imposing an equilibrium on a large giant, while the situation with KIC 9246715 is more complicated. For a thorough review of tidal forces in stars, see \citet{ogi14}.
 
-For the MESA model described above, we find RESULT FROM CALCULATION HERE. The two coeval stars have very similar masses, so this rough calculation is valid both for Star 1 acting on Star 2 and vice versa. In either case, this means that the change in eccentricity over the binary's lifetime should theoretically be greater than 1. IS THAT ACTUALLY TRUE?? In practical terms, this means that regardless of KIC 9246715's original eccentricity, it should have evolved to zero by the present day, when both stars are in the red clump phase. The observed $e = 0.35$ is inconsistent. DISCUSS THE RESULT FURTHER.
+For the MESA model described above, we find $\Delta \ln e = 1.84$, indicating that the eccentricity should have changed by more than 1 over the lifetime of the star. The two coeval stars have very similar masses, so this rough calculation is valid both for Star 1 acting on Star 2 and vice versa. In either case, this means that the change in eccentricity over the binary's lifetime should theoretically be greater than 1. IS THAT ACTUALLY TRUE?? In practical terms, this means that regardless of KIC 9246715's original eccentricity, it should have evolved to zero by the present day, when both stars are in the red clump phase. The observed $e = 0.35$ is inconsistent. DISCUSS THE RESULT FURTHER.
 
 Tidal forces also tend to synchronize a binary star's orbit with the stellar rotation period, generally on shorter timescales than required for circularization \citep{ogi14}. Hints of KIC 9246715's stellar rotation behavior are present throughout this study: quasi-periodic light curve variability on the order of half the orbital period (Section \ref{discuss}), a star spot present during one primary eclipse event only (Section \ref{segment}), a constraint on $v \sin i$ from spectra (Section \ref{parameters}), and asteroseismic period spacing consistent with red clump stars yet not clear enough to measure a robust core rotation rate (Section \ref{discuss}). 
 
@@ -28,4 +34,6 @@ WRITE MORE ABOUT SYNCHRONIZATION OR LACK THEREOF HERE, AND CLEAN THE FOLLOWING P
 
 The fact that only one star is oscillating points to how tidal activity may affect oscillations.
 Important for other people because over half of cool stars should be in binaries! Using RGs to probe the galaxy has to be done carefully because of external influences of binarity on oscillations.}
+  
+
   
