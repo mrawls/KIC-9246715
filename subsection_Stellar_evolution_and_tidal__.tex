@@ -10,7 +10,7 @@ To estimate how tidal forces may affect the orbital eccentricity, we follow the 
 \Delta \ln e = \int_0^t \frac{\rm{d}t'}{\tau_c(t')}.
 \end{equation}
 
-We consider a detached binary with constant $a$ and constant total stellar masses, and use equations 5 and 6 from \citet{ver95} as follows:
+To approximate the case of KIC 9246715, we consider a detached binary with constant $a$ and constant total stellar masses, and use equations 5 and 6 from \citet{ver95} to calculate the expected change in orbital eccentricity:
 
 \begin{equation}\label{tide1}
 \Delta \ln e = -1.7 \times 10^{-5} \ f \ {\left( \frac{M}{M_{\odot}} \right)}^{-11/3} \ q(1+q)^{-5/3} \ I(t) {\left( \frac{P_{\rm{orb}}}{\rm{day}} \right)}^{-16/3},
@@ -22,9 +22,9 @@ where $f$ is a factor of order unity, $q$ is the ratio of the companion star's m
 I(t) \equiv \int_0^t \left( \frac{T_{\rm{eff}}(t')}{4500 \rm{K}} \right)^{4/3} \ \left( \frac{M_{\rm{env}}(t')}{M_{\odot}} \right)^{2/3} \ \left( \frac{R(t')}{R_{\odot}} \right)^8 \ dt',
 \end{equation}
 
-where $M_{\rm{env}}$ is the mass of the convective envelope of the primary star. It is important to note that \citet{ver95} assumed circularization would proceed by a small secondary star (main sequence or white dwarf) imposing an equilibrium on a large giant, while the situation with KIC 9246715 is more complicated. For a thorough review of tidal forces in stars, see \citet{ogi14}.
+where $M_{\rm{env}}$ is the mass of the convective envelope of the primary star. It is important to note that \citet{ver95} assumed circularization would proceed by a small secondary star (main sequence or white dwarf) imposing an equilibrium tide on a large giant, while the situation with KIC 9246715 is more complicated. For a thorough review of tidal forces in stars, see \citet{ogi14}.
 
-For the MESA model described above, we find $\Delta \ln e = 1.84$, indicating that the eccentricity should have changed by more than 1 over the lifetime of the star. The two coeval stars have very similar masses, so this rough calculation is valid both for Star 1 acting on Star 2 and vice versa. In either case, this means that the change in eccentricity over the binary's lifetime should theoretically be greater than 1. IS THAT ACTUALLY TRUE?? In practical terms, this means that regardless of KIC 9246715's original eccentricity, it should have evolved to zero by the present day, when both stars are in the red clump phase. The observed $e = 0.35$ is inconsistent. DISCUSS THE RESULT FURTHER.
+For the MESA model described above, we compute $\Delta \ln e = 1.84$ up until $t = 9 \times 10^8$ years, indicating that the eccentricity should have changed by more than 1 over the star's lifetime. The two coeval stars in KIC 9246715 have very similar masses, radii, and temperatures, so this rough calculation is valid both for Star 1 acting on Star 2 and vice versa. In either case, this means that regardless of KIC 9246715's original eccentricity, it should have evolved to zero by the present day, when both stars are in the red clump phase. The observed $e = 0.35$ is inconsistent. DISCUSS THE RESULT FURTHER.
 
 Tidal forces also tend to synchronize a binary star's orbit with the stellar rotation period, generally on shorter timescales than required for circularization \citep{ogi14}. Hints of KIC 9246715's stellar rotation behavior are present throughout this study: quasi-periodic light curve variability on the order of half the orbital period (Section \ref{discuss}), a star spot present during one primary eclipse event only (Section \ref{segment}), a constraint on $v \sin i$ from spectra (Section \ref{parameters}), and asteroseismic period spacing consistent with red clump stars yet not clear enough to measure a robust core rotation rate (Section \ref{discuss}). 
 
@@ -36,4 +36,5 @@ The fact that only one star is oscillating points to how tidal activity may affe
 Important for other people because over half of cool stars should be in binaries! Using RGs to probe the galaxy has to be done carefully because of external influences of binarity on oscillations.}
   
 
+  
   
