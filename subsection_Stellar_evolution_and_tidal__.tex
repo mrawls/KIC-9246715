@@ -2,12 +2,11 @@
 
 Over the course of KIC 9246715's life, both stars have evolved in tandem to reach the configuration we see today. We quantify this with simple stellar evolution models created using the Modules for Experiments in Stellar Astrophysics (MESA) code \citep{pax11,pax13,pax15}. Figure \ref{fig:mesa} presents a suite of models with various initial stellar masses. Recall that the masses and radii of each star are $M_1 = 2.16 \pm 0.04\ M_{\odot}$, $M_2 = 2.14 \pm 0.03\ M_{\odot}$, $R_1 = 7.90 \pm 0.04 \ R_{\odot}$, $R_2 = 8.33 \pm 0.04 \ R_{\odot}$. The stage of each star's life as it ages in Figure \ref{fig:mesa} is color-coded, and two lines of constant radii (corresponding to Star 1 and Star 2) are shown. From this, we conclude that both stars are indeed coeval, are both presently on the red giant branch, and are too small by $\sim 1 \ R_\odot$ to have evolved past this stage onto the red clump.
 
-We explore several possibilities to explain why these stars appear to be on the red giant branch when the asteroseismic period spacing suggested they were on the red clump (I WILL ELABORATE ON EACH OF THESE AND DRAW SOME KIND OF CONCLUSION):
+We explore several possibilities to explain why these stars appear to be on the red giant branch when the asteroseismic period spacing suggested they were on the red clump:
 \begin{itemize}
-\item mass loss?
-\item overshooting?
-\item low amplitude modes physically change convection, and thus evolution?
-\item period spacing is weird and rotational splitting of mixed modes is annoying?
+\item Adding a prescription for overshooting and moderate red-giant-branch mass loss ($\eta = 0.4$, see \citet{mig12}) to the MESA model did not appreciably change stellar radius as a function of evolutionary stage. Even a more extreme mass-loss rate ($\eta = 0.7$) did not notably affect the radii, essentially because the star is too low-mass to lose much mass.
+\item Low-amplitude solar-like oscillations are indicative of physically different conditions in the convection zone due to magnetic activity. If these physical differences are significant enough, stellar evolution may proceed differently than we expect, and it may be possible to create red clump stars with smaller radii.
+\item The noisy period spacing measurement ($\Delta \Pi \simeq 150 \ \rm{sec}$ may not be measuring what we expect due to rotational splitting of mixed oscillation modes. If the true period spacing is closer to $\Delta \Pi \simeq 80 \ \rm{sec}$, this would explain the disagreement. A detailed discussion of rotational splitting behavior in slowly rotating red giants is beyond the scope of this paper, but is explored in \citet{gou13}.
 \end{itemize}
 
 Beyond a pair of simple stellar evolution models, it is important to consider how each star has affected the other over time. To estimate how we expect tidal forces to change the orbital eccentricity, we follow the approach of \citet{ver95}, who use a theory of the equilibrium tide first proposed by \citet{zah77} to calculate a timescale for orbit circularization, $\tau_c$, as a star evolves. The total change in eccentricity over a detached binary's lifetime, $\Delta \ln e$, is found by integrating $1/\tau_c \equiv \rm{d} \ln e / \rm{d}t$:
@@ -42,6 +41,7 @@ The fact that only one star is oscillating points to how tidal activity may affe
 Important for other people because over half of cool stars should be in binaries! Using RGs to probe the galaxy has to be done carefully because of external influences of binarity on oscillations.}
   
 
+  
   
   
   
