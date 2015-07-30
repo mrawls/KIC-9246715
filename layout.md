@@ -25,6 +25,7 @@ figures/emission_star2/emission_star2.png
 figures/figure_1/figure_1.png
 subsection_Stellar_evolution_and_tidal__.tex
 figures/agevsmass_draft/agevsmass_draft.png
+Beyond_a_stellar_evolution_model__.tex
 Discussion cont..tex
 Discussion cont..tex
 Conclusion.tex
