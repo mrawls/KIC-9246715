@@ -19,6 +19,7 @@ begin_deluxetable_lccccc_tablecolumns_6__1.tex
 subsection_Searching_for_a_second__.tex
 figures/KIC_9246715_PDS_patrick/KIC_9246715_PDS_patrick.png
 figures/KIC_9246715_echelle_patrick/KIC_9246715_echelle_patrick.png
+subsection_Searching_for_a_second__1.tex
 More Discussion.tex
 figures/emission_star3/emission_star1.png
 figures/emission_star2/emission_star2.png
