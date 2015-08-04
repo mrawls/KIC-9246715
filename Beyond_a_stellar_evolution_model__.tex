@@ -3,20 +3,12 @@ Beyond a stellar evolution model, it is important to consider how each star has 
 From \citet{ver95}, the timescale $\tau_c$ on which orbital circularization occurs is given by
 
 \begin{equation}
-\frac{1}{\tau_c} \equiv \frac{\rm{d} \ln e}{\rm{d}t} \simeq -1.7 f {\left( \frac{T_{\rm{eff}}}{4500 \rm{K}} \right)}^{4/3} \left( \frac{M_{\rm{env}}}{M_{\odot}} \right)^{2/3} \frac{M_{\odot}}{M} \frac{M_2}{M} \frac{M+M_2}{M} \left( \frac{R}{a} \right)^8 \ \rm{yr}^{-1},
+\frac{1}{\tau_c} \equiv \frac{\rm{d} \ln e}{\rm{d}t} \simeq -1.7 {\left( \frac{T_{\rm{eff}}}{4500 \rm{K}} \right)}^{4/3} \left( \frac{M_{\rm{env}}}{M_{\odot}} \right)^{2/3} \frac{M_{\odot}}{M} \frac{M_2}{M} \frac{M+M_2}{M} \left( \frac{R}{a} \right)^8 \ \rm{yr}^{-1},
 \end{equation}
 
-where $f$ is a dimensionless factor of order unity, $M$, $R$, and $T_{\rm{eff}}$ are the mass, radius, and temperature of a giant star with dissipative tides, $M_{\rm{env}}$ is the mass of its convective envelope, $M_2$ is the mass of the companion star, and $a$ is the semi-major axis of the binary orbit.
+where $M$, $R$, and $T_{\rm{eff}}$ are the mass, radius, and temperature of a giant star with dissipative tides, $M_{\rm{env}}$ is the mass of its convective envelope, $M_2$ is the mass of the companion star, and $a$ is the semi-major axis of the binary orbit.
 
-We integrate this expression over the lifetime of KIC 9246715 to estimate the total expected change in orbital eccentricity, $\Delta \ln e$. We assume $a$ is constant, $f = 1$, and that there is no mass loss. Because KIC 9246715 is a well-separated binary, we can separate the integral into a part that is independent of the orbit and a part that must be integrated over time:
-
-%To estimate the change in eccentricity over the lifetime of KIC 9246715, we integrate over the orbit circularization timescale:
-
-%\begin{equation}\label{circ}
-%\Delta \ln e = \int_0^t \frac{\rm{d}t'}{\tau_c(t')}.
-%\end{equation}
-
-%We assume the stars are sufficiently separated to make $a$ constant over time, and we further assume no mass loss. We can then use Equations 5 and 6 from \citet{ver95} to calculate the expected change in orbital eccentricity:
+We integrate this expression over the lifetime of KIC 9246715 to estimate the total expected change in orbital eccentricity, $\Delta \ln e$. We assume $a$ is constant and that there is no mass loss. Because KIC 9246715 is a detached binary, we can separate the integral into a part that is independent of the orbit and a part that must be integrated over time:
 
 \begin{equation}\label{tide1}
 \Delta \ln e = \int_0^t \frac{\rm{d}t'}{\tau_c(t')} \simeq -1.7 \times 10^{-5} \ {\left( \frac{M}{M_{\odot}} \right)}^{-11/3} \ q(1+q)^{-5/3} \ I(t) {\left( \frac{P_{\rm{orb}}}{\rm{day}} \right)}^{-16/3},
@@ -33,19 +25,3 @@ For the MESA model described above with $M = 2.16 \ M_{\odot}$, we compute $\Del
 The two coeval stars in KIC 9246715 have very similar masses, radii, and temperatures, so this rough calculation is valid both for Star 1 acting on Star 2 and vice versa. In contrast, given just another $0.4 \times 10^8$ years to evolve past the red giant branch toward the red clump, $\log [-\Delta \ln e]$ becomes greater than zero and the expectation is a circular orbit. Therefore, the observed $e > 0$ is consistent only with a younger red giant branch star, and not with an older red clump star.
 
 Tidal forces also tend to synchronize a binary star's orbit with the stellar rotation period, generally on shorter timescales than required for circularization \citep{ogi14}. Hints of KIC 9246715's stellar rotation behavior are present throughout this study: quasi-periodic light curve variability on the order of half the orbital period (Section \ref{discuss}), a star spot present during one primary eclipse event only (Section \ref{segment}), a constraint on $v \sin i$ from spectra (Section \ref{parameters}), and asteroseismic period spacing consistent with red clump stars yet not clear enough to measure a robust core rotation rate (Section \ref{discuss}). While full tidal circularization has not occurred, it is clear that modest tidal forces have played a role in the evolution of KIC 9246715, and may be linked to the absence or weakness of solar-like oscillations. Future studies of RG/EBs with different evolutionary histories and orbital configurations will help explore this connection further.
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
