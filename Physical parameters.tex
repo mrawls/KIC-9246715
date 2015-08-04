@@ -1,5 +1,6 @@
 \section{Physical parameters from light curve \& radial velocities}\label{model}
-To derive physical and orbital parameters for KIC 9246715, we use the Eclipsing Light Curve (ELC) code \citep{oro00}. ELC employs photodynamical modeling with a Monte Carlo Markov Chain optimizer to simultaneously solve for a suite of stellar parameters. It is able to consider any set of input constraints simultaneously, i.e., a combination of light curves and radial velocities, and can use a full treatment of Roche geometry \citep{kop69,avn75}. It uses the NextGen model atmospheres integrated over a specified filter (in this case, the relatively broad ``white-light'' \emph{Kepler} bandpass). ELC uses $\chi^2$ as a measure of fitness to refine a best-fit model:
+To derive physical and orbital parameters for KIC 9246715, we use the Eclipsing Light Curve (ELC) code \citep{oro00}. ELC employs photodynamical modeling with a Monte Carlo Markov Chain optimizer to simultaneously solve for a suite of stellar parameters. It is able to consider any set of input constraints simultaneously, i.e., a combination of light curves and radial velocities, and can use a full treatment of Roche geometry \citep{kop69,avn75}. ELC uses a grid of NextGen model atmospheres integrated over the \emph{Kepler} bandpass to assign an intensity at the surface normal of each star. Intensities for the other portions of each star's visible surface are computed with a quadratic limb darkening law. By including the temperature of Star 1 as a fit parameter, ELC will try different model atmospheres to find the best fit, thereby indirectly fitting stellar temperature.
+ELC uses $\chi^2$ as a measure of fitness to refine a best-fit model:
 \begin{eqnarray}
 \chi^2 & = &
 \sum_i \frac{ (f_{\rm{mod}}(\phi_i; \ {\bf a}) - f_{\rm{obs}}(\rm{\it{Kepler}}))^2 }{\sigma_i^2(\rm{\it{Kepler}})} \nonumber \\
@@ -18,7 +19,9 @@ We use ELC to solve for 16 parameters: orbital period $P_{orb}$, zeropoint $T_{c
 \frac{M_1}{M_2} = \frac{K_2}{K_1},
 \end{equation}
 the ELC model includes masses and radii for both stars. Error bars for each fit parameter are estimated by scaling the measured error values so that $\chi^2 \sim N$, where $N$ is the number of data points in one of three data sets (light curve of the binary, radial velocity of Star 1, and radial velocity of Star 2). We then assign one-sigma errors for each parameter corresponding to the value that gives $\Delta \chi^2$ equal to the minimum $\chi^2$. The results for the all-eclipse ELC model are shown in Figure \ref{fig:ELCresult} and presented in the ``All-eclipse model'' column of Table \ref{table1}. These values are used to constrain the spectral disentangling process described in Section \ref{atm}.
-{\bf{I STILL NEED A SENTENCE EXPLAINING HOW ELC CAN DETERMINE AN ABSOLUTE TEMPERATURE AND NOT ONLY A RATIO T2/T1. MAYBE JERRY IS THE BEST FOR WRITING SUCH A SENTENCE... MR: This is addressed at the end of Section 5.2. Is that not adequate? PG: IT IS NOT. AT THE END OF SECT 5.2 YOU SAY THAT KEPLER BROAD BANDPASS ISN'T GOOD FOR DETERMINING TEFF FROM LC, BUT YOU NEVER SAID HOW IT DOES, IN PRINCIPLE. A SENTENCE SHOULD BE ADDED IN 5.1 FOR THAT}}
+
+%{\bf{I STILL NEED A SENTENCE EXPLAINING HOW ELC CAN DETERMINE AN ABSOLUTE TEMPERATURE AND NOT ONLY A RATIO T2/T1. MAYBE JERRY IS THE BEST FOR WRITING SUCH A SENTENCE... MR: This is addressed at the end of Section 5.2. Is that not adequate? PG: IT IS NOT. AT THE END OF SECT 5.2 YOU SAY THAT KEPLER BROAD BANDPASS ISN'T GOOD FOR DETERMINING TEFF FROM LC, BUT YOU NEVER SAID HOW IT DOES, IN PRINCIPLE. A SENTENCE SHOULD BE ADDED IN 5.1 FOR THAT}}
+  
   
   
   
