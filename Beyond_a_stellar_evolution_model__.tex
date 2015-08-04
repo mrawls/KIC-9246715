@@ -3,10 +3,10 @@ Beyond a stellar evolution model, it is important to consider how each star has 
 The timescale $\tau_c$ on which orbital circularization occurs is given by
 
 \begin{equation}
-\frac{1}{\tau_c} \equiv \frac{\rm{d} \ln e}{\rm{d}t} = f \left( \frac{L}{M_{\rm{env}}R^2} \right)^{1/3} \frac{M_{\rm{env}}}{M} q \frac{M+M_2}{M} \left( \frac{R}{a} \right)^8.
+\frac{1}{\tau_c} \equiv \frac{\rm{d} \ln e}{\rm{d}t} = f \left( \frac{L}{M_{\rm{env}}R^2} \right)^{1/3} \frac{M_{\rm{env}}}{M} \frac{M_2}{M} \frac{M+M_2}{M} \left( \frac{R}{a} \right)^8.
 \end{equation}
 
-Here, $f$ is a factor of order unity \citep{ver95}, $M_{\rm{env}}$ is the mass of the convective envelope of the primary star, and $q$ is the mass ratio.
+Here, $f$ is a factor of order unity \citep{ver95} and $M_{\rm{env}}$ is the mass of the convective envelope of the primary star.
 
 We integrate this expression over the lifetime of the star to estimate the total expected change in orbital eccentricity, $\Delta \ln e$. We assume $a$ is constant, $f = 1$, and further assume no mass loss. Because KIC 9246715 is a well-separated binary, we can separate the integral into a part that is independent of the orbit and a part that must be integrated over time:
 
@@ -22,7 +22,7 @@ We integrate this expression over the lifetime of the star to estimate the total
 \Delta \ln e = -1.7 \times 10^{-5} \ f \ {\left( \frac{M}{M_{\odot}} \right)}^{-11/3} \ q(1+q)^{-5/3} \ I(t) {\left( \frac{P_{\rm{orb}}}{\rm{day}} \right)}^{-16/3},
 \end{equation}
 
-where
+where $q$ is the mass ratio and
 
 \begin{equation}
 I(t) \equiv \int_0^t \left( \frac{T_{\rm{eff}}(t')}{4500 \rm{K}} \right)^{4/3} \ \left( \frac{M_{\rm{env}}(t')}{M_{\odot}} \right)^{2/3} \ \left( \frac{R(t')}{R_{\odot}} \right)^8 \ dt'.
@@ -33,6 +33,7 @@ For the MESA model described above with $M = 2.16 \ M_{\odot}$, we compute $\Del
 The two coeval stars in KIC 9246715 have very similar masses, radii, and temperatures, so this rough calculation is valid both for Star 1 acting on Star 2 and vice versa. In contrast, given just another $0.4 \times 10^8$ years to evolve past the red giant branch toward the red clump, $\log [-\Delta \ln e]$ becomes greater than zero and the expectation is a circular orbit. Therefore, the observed $e > 0$ is consistent only with a younger red giant branch star, and not with an older red clump star.
 
 Tidal forces also tend to synchronize a binary star's orbit with the stellar rotation period, generally on shorter timescales than required for circularization \citep{ogi14}. Hints of KIC 9246715's stellar rotation behavior are present throughout this study: quasi-periodic light curve variability on the order of half the orbital period (Section \ref{discuss}), a star spot present during one primary eclipse event only (Section \ref{segment}), a constraint on $v \sin i$ from spectra (Section \ref{parameters}), and asteroseismic period spacing consistent with red clump stars yet not clear enough to measure a robust core rotation rate (Section \ref{discuss}). While full tidal circularization has not occurred, it is clear that modest tidal forces have played a role in the evolution of KIC 9246715, and may be linked to the absence or weakness of solar-like oscillations. Future studies of RG/EBs with different evolutionary histories and orbital configurations will help explore this connection further.
+  
   
   
   
