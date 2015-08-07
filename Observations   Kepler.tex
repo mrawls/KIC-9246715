@@ -1,13 +1,10 @@
 \section{Observations}\label{data}
 
 \subsection{\emph{Kepler} light curves}\label{kepler}
-Our light curves are from the \emph{Kepler} Space Telescope in long-cadence mode (one data point every 29.4 minutes), and span 17 quarters---roughly four years---with only occasional gaps. Long-cadence observations over many years are well-suited for red giant asteroseismology, as main sequence stars with convective envelopes oscillate too rapidly to be measured with \emph{Kepler} long-cadence data.
+Our light curves are from the \emph{Kepler} Space Telescope in long-cadence mode (one data point every 29.4 minutes), and span 17 quarters---roughly four years---with only occasional gaps. These light curves are well-suited for red giant asteroseismology, as main sequence stars with convective envelopes oscillate too rapidly to be measured with \emph{Kepler} long-cadence data.
 
 When studying long-period eclipsing binaries, it is important to remove instrumental effects in the light curve while preserving the astrophysically interesting signal. In this work, we prioritize preserving eclipses. Our detrending algorithm uses the simple aperture photometry (SAP) long-cadence \emph{Kepler} data for quarters 0--17. First, any observations with NaNs are removed, and observations from different quarters are put onto the same median level so that the eclipses line up. The out-of-eclipse portions of the light curve are flattened, which removes any out-of-eclipse variability. For eclipse modeling, we use only the portions of the light curve that lie within one eclipse duration of the start and end of each eclipse. This differs from the light curve processing needed for asteroseismology, which requires interpolation to achieve evenly spaced observations (no gaps in time) and typically ``fills'' the eclipses to minimize their effect on the power spectrum \citep{gau14}.
 
-The processed light curve is presented in Figure \ref{fig:keplerfig}. The top panel shows the entire detrended light curve, while the middle and bottom panels indicate the regions near each eclipse used in this work. We adopt the convention that the ``primary'' eclipse is the deeper of the two, when Star 1 is eclipsing Star 2. The geometry of the system creates partial eclipses with different depths due to similarly-sized stars in an eccentric orbit viewed with an inclination less than $90 \deg$.
-  
-  
-  
+The processed light curve is presented in Figure \ref{fig:keplerfig}. The top panel shows the entire detrended light curve, while the middle and bottom panels indicate the regions near each eclipse used in this work. We adopt the convention that the ``primary'' eclipse is the deeper of the two, when Star 1 is eclipsing Star 2. The geometry of the system creates partial eclipses with different depths due to similarly-sized stars in an eccentric orbit viewed with an inclination less than 90 degrees.
   
   
