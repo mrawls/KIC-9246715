@@ -17,7 +17,6 @@ Refined ELC Models.tex
 Discussion.tex
 begin_deluxetable_lccccc_tablecolumns_6__1.tex
 figures/KIC_9246715_PDS_patrick/KIC_9246715_PDS_patrick.png
-figures/KIC_9246715_echelle_patrick/KIC_9246715_echelle_patrick.png
 figures/KIC_9246715_echelle_bis/KIC_9246715_echelle_bis.png
 subsection_Searching_for_a_second__1.tex
 More Discussion.tex
