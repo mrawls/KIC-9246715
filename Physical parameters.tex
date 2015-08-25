@@ -1,5 +1,6 @@
 \section{Physical parameters from light curve \& radial velocities}\label{model}
 To derive physical and orbital parameters for KIC 9246715, we use the Eclipsing Light Curve (ELC) code \citep{oro00}. ELC computes model light and velocity curves and has several optimizing algorithms to simultaneously solve for a suite of stellar parameters. It is able to consider any set of input constraints simultaneously, i.e., a combination of light curves and radial velocities, and can use a full treatment of Roche geometry \citep{kop69,avn75}. ELC uses a grid of NextGen model atmospheres integrated over the \emph{Kepler} bandpass to assign an intensity at the surface normal of each star. Intensities for the other portions of each star's visible surface are then computed with a quadratic limb darkening law. By including the temperature of Star 1 as a fit parameter, ELC will try different model atmospheres, thereby indirectly computing stellar temperature. ELC uses $\chi^2$ as a measure of fitness to refine a best-fit model:
+
 \begin{eqnarray}
 \chi^2 & = &
 \sum_i \frac{ (f_{\rm{mod}}(\phi_i; \ {\bf a}) - f_{\rm{obs}}(\rm{\it{Kepler}}))^2 }{\sigma_i^2(\rm{\it{Kepler}})} \nonumber \\
@@ -7,20 +8,11 @@ To derive physical and orbital parameters for KIC 9246715, we use the Eclipsing 
 & + & \sum_i \frac{(f_{\rm{mod}}(\phi_i; \ {\bf a}) - f_{\rm{obs}}(\rm{RV_2}))^2}{\sigma_i^2(\rm{RV_2})}, \nonumber
 \end{eqnarray}
 
-where $f_{\rm{mod}}(\phi_i; \ {\bf a})$ is the ELC model flux at a given phase $\phi_i$ for a set of parameters ${\bf a}$, $f_{\rm{obs}}$ is the observed value at the same phase, and $\sigma_i$ is the associated uncertainty.
+\noindent where $f_{\rm{mod}}(\phi_i; \ {\bf a})$ is the ELC model flux at a given phase $\phi_i$ for a set of parameters ${\bf a}$, $f_{\rm{obs}}$ is the observed value at the same phase, and $\sigma_i$ is the associated uncertainty.
 
 We compute two sets of ELC models: the first uses all eclipses from the light curve together with all radial velocity points, and the second breaks the light curves into segments to investigate how photometric variations from one orbit to another affect the results. Both sets of models employ ELC's ``fast analytic mode.'' This uses the equations in \citet{man02} to treat both stars as spheres, which is reasonable for a well-detached binary like KIC 9246715 ($R/a < 0.04$ for both stars).
 
 \subsection{All-eclipse ELC model}
-
 We use ELC to solve for 16 parameters: orbital period $P_{orb}$, zeropoint $T_{conj}$ (this sets the primary eclipse to orbital phase $\phi_{ELC} = 0.5$ instead of $\phi = 0$), orbital inclination $i$, $e \sin \omega$ and $e \cos \omega$ (where $e$ is eccentricity and $\omega$ is the longitude of periastron), the temperature of the primary star $T_1$, the mass of the primary star $M_1$, the amplitude of the primary star's radial velocity curve $K_1$, the fractional radii of each star $R_1/a$ and $R_2/a$, the temperature ratio $T_2/T_1$, the \emph{Kepler} contamination factor, and stellar limb darkening parameters for the triangular limb darkening law \citep{kip13}. The scale of the system (and hence the component masses and radii) is uniquely determined given the primary star mass, the amplitude of its radial velocity curve, and the orbital period.
 
 Error bars for each fit parameter are estimated by scaling the measured error values so that $\chi^2 \sim N$, where $N$ is the number of data points in one of three data sets (light curve of the binary, radial velocity of Star 1, and radial velocity of Star 2). We then assign one-sigma errors for each parameter corresponding to the value that gives $\Delta \chi^2 = \chi^2_{\rm{min}} + 1$. The results for the all-eclipse ELC model are shown in Figure \ref{fig:ELCresult} and presented in Table \ref{table1}. These values are used to constrain the spectral disentangling process described in Section \ref{atm}.
-
-  
-  
-  
-  
-  
-  
-  
