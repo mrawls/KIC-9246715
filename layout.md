@@ -5,7 +5,7 @@ figures/lc_finalplot1/lcfig.png
 Observations   spectra.tex
 Radial Velocities.tex
 begin_deluxetable_cccccc_tablecolumns_6__.tex
-figures/bf_awesomeplot2/bf_finalplot_modeltemplate.png
+figures/bf_awesomeplot2/fig2_revised.png
 figures/rvcurve_final2/9246715_rvplot_final_REALLY_smoothfix.png
 Stellar atmosphere model.tex
 figures/fdbinary_plot1/FDBinary_plot_trial6.png
