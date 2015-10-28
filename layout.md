@@ -2,6 +2,7 @@ abstract.tex
 Introduction.tex
 Observations   Kepler.tex
 figures/lc_finalplot1/lcfig.png
+figures/newfig_LC_noeclipses/newfig_LC_noeclipses.png
 Observations   spectra.tex
 Radial Velocities.tex
 begin_deluxetable_cccccc_tablecolumns_6__.tex
