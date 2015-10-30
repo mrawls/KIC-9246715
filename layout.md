@@ -17,6 +17,7 @@ figures/better_ELCplot/ELCfig_demcmc001.png
 Refined ELC Models.tex
 Discussion.tex
 begin_deluxetable_lccccc_tablecolumns_6__1.tex
+subsubsection_Mixed_oscillation_modes_label__.tex
 figures/KIC_9246715_PDS_patrick/KIC_9246715_PDS_patrick.png
 figures/KIC_9246715_echelle_bis/KIC_9246715_echelle_bis.png
 subsection_A_hint_of_a__.tex
