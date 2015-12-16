@@ -32,4 +32,4 @@ Discussion cont..tex
 Discussion cont..tex
 Conclusion.tex
 Acknowledgments.tex
-begin_appendix_label_appendix_words__.tex
+appendix_section_Oscillation_modes_fit__.tex
