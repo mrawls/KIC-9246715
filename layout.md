@@ -22,6 +22,7 @@ subsubsection_Mixed_oscillation_modes_label__.tex
 figures/KIC_9246715_echelle_bis/KIC_9246715_echelle_bis.png
 subsubsection_Identifying_the_oscillating_star__.tex
 subsection_A_hint_of_a__.tex
+figures/fig8/fig8.png
 More Discussion.tex
 figures/emission_star3/emission_star1.png
 figures/emission_star2/emission_star2.png
