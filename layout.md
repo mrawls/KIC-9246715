@@ -33,3 +33,4 @@ Discussion cont..tex
 Conclusion.tex
 Acknowledgments.tex
 appendix_section_Oscillation_modes_fit__.tex
+begin_deluxetable_lcccc_tablecolumns_5__.tex
