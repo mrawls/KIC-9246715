@@ -34,4 +34,4 @@ Conclusion.tex
 Acknowledgments.tex
 appendix_section_Oscillation_modes_fit__.tex
 begin_deluxetable_lcccc_tablecolumns_5__.tex
-figures/KIC_9246715_echelle_row-1/KIC_9246715_echelle_row-1.png
+figures/KIC_9246715_echelle_row-1/KIC_9246715_echelle_row-2.png
